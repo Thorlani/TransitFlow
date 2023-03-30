@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'krub-bold';
+  src: url('../src/assets/custom-font/Krub/Krub-Bold.ttf') format('truetype');
+  /* Add additional src attributes for other file types, such as woff or otf */
+}
+@font-face {
+  font-family: 'krub-semibold';
+  src: url('../src/assets/custom-font/Krub/Krub-SemiBold.ttf') format('truetype');
+  /* Add additional src attributes for other file types, such as woff or otf */
+}
+@font-face {
+  font-family: 'rubik-semibold';
+  src: url('../src/assets/custom-font/Rubik/static/Rubik-SemiBold.ttf') format('truetype');
+  /* Add additional src attributes for other file types, such as woff or otf */
+}
+@font-face {
+  font-family: 'rubik-regular';
+  src: url('../src/assets/custom-font/Rubik/static/Rubik-Regular.ttf') format('truetype');
+  /* Add additional src attributes for other file types, such as woff or otf */
+}
+@font-face {
+  font-family: 'krub-medium';
+  src: url('../src/assets/custom-font/Krub/Krub-Medium.ttf') format('truetype');
+  /* Add additional src attributes for other file types, such as woff or otf */
+}
+@font-face {
+  font-family: 'rubik-bold';
+  src: url('../src/assets/custom-font/Rubik/static/Rubik-Bold.ttf') format('truetype');
+  /* Add additional src attributes for other file types, such as woff or otf */
+}
+@font-face {
+  font-family: 'league-regular';
+  src: url('../src/assets/custom-font/League_Spartan/static/LeagueSpartan-Regular.ttf') format('truetype');
+  /* Add additional src attributes for other file types, such as woff or otf */
+}
+
+#rubik-bold {
+  font-family: 'rubik-bold', sans-serif;
+}
+#rubik-semibold {
+  font-family: 'rubik-semibold', sans-serif;
+}
+#rubik-regular {
+  font-family: 'rubik-regular', sans-serif;
+}
+
+#krub-bold {
+  font-family: 'krub-bold', sans-serif;
+}
+#krub-semibold {
+  font-family: 'krub-semibold', sans-serif;
+}
+#krub-medium {
+  font-family: 'krub-medium', sans-serif;
+}
+#league-regular {
+  font-family: 'league-regular', sans-serif;
+}
+
+#icon-rotate {
+  transform: rotate(65deg);
+}
+
+#bottom-line:before {
+  content: "";
+  width: 28px;
+  height: 1px;
+  position: absolute;
+  bottom: 0px;
+  left: 13.5%;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  transform: translate(-50%, 0rem);
+}
+
+#button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#button:before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-top-left-radius: 60px;
+}
+
+#btn {
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+#btn:before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #666c89;
+  border-top-left-radius: 60px;
+}
