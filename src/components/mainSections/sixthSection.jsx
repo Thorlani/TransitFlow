@@ -13,11 +13,16 @@ const SixthSection = () => {
       <div className="w-full flex flex-col items-center justify-center">
         <div className="flex bg-black/20 w-[78px]">
           <div className="w-[2px] h-[13px] bg-gradient-to-r from-[#FFDA56] to-[#FFD7A6]"></div>
-          <p id="rubik-regular" className="text-[#1C1F35] text-[8px] text-center px-[4px]">
+          <p
+            id="rubik-regular"
+            className="text-[#1C1F35] text-[8px] text-center px-[4px]"
+          >
             The Transporters
           </p>
         </div>
-        <p id="rubik-semibold" className="text-[#1C1F35] font-bold text-2xl">Meet Expert Team</p>
+        <p id="rubik-semibold" className="text-[#1C1F35] font-bold text-2xl">
+          Meet Expert Team
+        </p>
         <div className="w-full mt-[20px] flex justify-between items-center px-[15%]">
           <div className="relative">
             <img
@@ -25,26 +30,6 @@ const SixthSection = () => {
               alt="a photo of Jessica the team designer"
               className="object-contain w-[280px] h-[280px]"
             />
-            <div className="absolute px-[6px] py-[8px] w-[60px] bg-gradient-to-t from-[#FFDA56] to-[#FFD7A6] flex justify-between bottom-[45px] left-[147px]">
-              <img
-                src={Twitter}
-                alt="a logo of twitter"
-                width={10}
-                height={10}
-              />
-              <img
-                src={Facebook}
-                alt="a logo of facebook"
-                width={10}
-                height={10}
-              />
-              <img
-                src={Instagram}
-                alt="a logo of instagram"
-                width={10}
-                height={10}
-              />
-            </div>
           </div>
           <div className="relative">
             <img
@@ -52,32 +37,6 @@ const SixthSection = () => {
               alt="a photo of Smith the team designer"
               className="object-contain w-[280px] h-[280px]"
             />
-            <div className="absolute px-[6px] py-[8px] w-[70px] bg-gradient-to-t from-[#FFDA56] to-[#FFD7A6] flex justify-between bottom-[45px] left-[137px]">
-              <img
-                src={Linkdin}
-                alt="a logo of twitter"
-                width={10}
-                height={10}
-              />
-              <img
-                src={Twitter}
-                alt="a logo of twitter"
-                width={10}
-                height={10}
-              />
-              <img
-                src={Facebook}
-                alt="a logo of facebook"
-                width={10}
-                height={10}
-              />
-              <img
-                src={Instagram}
-                alt="a logo of instagram"
-                width={10}
-                height={10}
-              />
-            </div>
           </div>
           <div className="relative">
             <img
@@ -85,20 +44,6 @@ const SixthSection = () => {
               alt="a photo of Rebecca the team designer"
               className="object-contain w-[280px] h-[280px]"
             />
-            <div className="absolute px-[6px] py-[8px] w-[40px] bg-gradient-to-t from-[#FFDA56] to-[#FFD7A6] flex justify-between bottom-[45px] left-[167px]">
-              <img
-                src={Facebook}
-                alt="a logo of facebook"
-                width={10}
-                height={10}
-              />
-              <img
-                src={Instagram}
-                alt="a logo of instagram"
-                width={10}
-                height={10}
-              />
-            </div>
           </div>
         </div>
       </div>
