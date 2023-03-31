@@ -9,7 +9,7 @@ const SecondSection = () => {
     <section className="w-full h-[100px] relative mb-[590px]">
       <img src={secondSectionBg} alt="the background image of the second section" className="w-full h-[370px] object-contain" />
       <div className="flex items-center justify-center w-full absolute top-[180px]">
-        <div className="w-[600px] h-fit bg-[#ffffff] p-[4%]">
+        <div className="w-[800px] h-fit bg-[#ffffff] p-[4%]">
           <div className="w-full h-fit flex">
             <div className="w-[50%]">
               <div className="bg-[#E8E8E8] w-fit flex">
