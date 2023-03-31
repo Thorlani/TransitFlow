@@ -2,11 +2,12 @@ import React from "react";
 import delivery from "../../assets/delivery-Icon.svg";
 import optimize from "../../assets/optimize-Icon.svg";
 import aeroplane from "../../assets/aeroplane-image.svg";
+import secondSectionBg from "../../assets/second-section-bg.svg";
 
 const SecondSection = () => {
   return (
     <section className="w-full h-[100px] relative mb-[590px]">
-      <div className="w-full h-[400px] bg-second-section-bg bg-contain bg-no-repeat"></div>
+      <img src={secondSectionBg} alt="the background image of the second section" className="w-full h-[370px] object-contain" />
       <div className="flex items-center justify-center w-full absolute top-[180px]">
         <div className="w-[600px] h-fit bg-[#ffffff] p-[4%]">
           <div className="w-full h-fit flex">

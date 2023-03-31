@@ -97,7 +97,7 @@ const Footer = () => {
         <ul className="text-[#ffffff] text-xs h-[130px] flex flex-col cursor-pointer">
           <li className="mb-[12px]">
             <input
-              type="text"
+              type="email"
               placeholder="Your Email*"
               className="bg-transparent border-[1px] border-[#4E5683] w-[180px] p-[10px] text-[#999999]"
             />

@@ -18,14 +18,14 @@ const SixthSection = () => {
           </p>
         </div>
         <p id="rubik-semibold" className="text-[#1C1F35] font-bold text-2xl">Meet Expert Team</p>
-        <div className="w-full mt-[20px] flex justify-between items-center">
+        <div className="w-full mt-[20px] flex justify-between items-center px-[15%]">
           <div className="relative">
             <img
               src={jessica}
               alt="a photo of Jessica the team designer"
               className="object-contain w-[280px] h-[280px]"
             />
-            <div className="absolute px-[6px] py-[8px] w-[60px] bg-gradient-to-t from-[#FFDA56] to-[#FFD7A6] flex justify-between bottom-[45px] left-[174.5px]">
+            <div className="absolute px-[6px] py-[8px] w-[60px] bg-gradient-to-t from-[#FFDA56] to-[#FFD7A6] flex justify-between bottom-[45px] left-[147px]">
               <img
                 src={Twitter}
                 alt="a logo of twitter"
@@ -52,7 +52,7 @@ const SixthSection = () => {
               alt="a photo of Smith the team designer"
               className="object-contain w-[280px] h-[280px]"
             />
-            <div className="absolute px-[6px] py-[8px] w-[70px] bg-gradient-to-t from-[#FFDA56] to-[#FFD7A6] flex justify-between bottom-[45px] left-[165px]">
+            <div className="absolute px-[6px] py-[8px] w-[70px] bg-gradient-to-t from-[#FFDA56] to-[#FFD7A6] flex justify-between bottom-[45px] left-[137px]">
               <img
                 src={Linkdin}
                 alt="a logo of twitter"
@@ -85,7 +85,7 @@ const SixthSection = () => {
               alt="a photo of Rebecca the team designer"
               className="object-contain w-[280px] h-[280px]"
             />
-            <div className="absolute px-[6px] py-[8px] w-[40px] bg-gradient-to-t from-[#FFDA56] to-[#FFD7A6] flex justify-between bottom-[45px] left-[195px]">
+            <div className="absolute px-[6px] py-[8px] w-[40px] bg-gradient-to-t from-[#FFDA56] to-[#FFD7A6] flex justify-between bottom-[45px] left-[167px]">
               <img
                 src={Facebook}
                 alt="a logo of facebook"

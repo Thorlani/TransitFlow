@@ -70,33 +70,33 @@ const SeventhSection = () => {
             <input
               type="text"
               placeholder="Your name*"
-              className="border-[1px] border-[#ffffff] p-[10px] bg-transparent"
+              className="border-[1px] border-[#4E5683] p-[10px] bg-transparent  text-[#999999]"
             />
             <input
-              type="text"
+              type="email"
               placeholder="Email*"
-              className="border-[1px] border-[#ffffff] p-[10px] bg-transparent"
+              className="border-[1px] border-[#4E5683] p-[10px] bg-transparent  text-[#999999]"
             />
           </div>
           <div id="league-regular" className="grid grid-cols-2 gap-4 w-[700px] mb-[16px]">
             <input
-              type="text"
+              type="number"
               placeholder="Phone Number*"
-              className="border-[1px] border-[#ffffff] p-[10px] bg-transparent"
+              className="border-[1px] border-[#4E5683] p-[10px] bg-transparent  text-[#999999]"
             />
             <input
               type="text"
               placeholder="City*"
-              className="border-[1px] border-[#ffffff] p-[10px] bg-transparent"
+              className="border-[1px] border-[#4E5683] p-[10px] bg-transparent  text-[#999999]"
             />
           </div>
           <div id="league-regular" className="flex flex-col">
             <textarea
               type="text"
               placeholder="Your Message"
-              className="border-[1px] border-[#ffffff] p-[10px] bg-transparent h-[120px] w-[700px] mb-[16px]"
+              className="border-[1px] border-[#4E5683] p-[10px] bg-transparent h-[120px] w-[700px] mb-[16px]  text-[#999999]"
             />
-            <button id="krub-semibold" className="bg-gradient-to-r from-[#FFDA56] to-[#FFD7A6] text-[#23212A] px-[20px] py-[10px] w-[180px] text-[12px]">
+            <button type="submit" id="krub-semibold" className="bg-gradient-to-r from-[#FFDA56] to-[#FFD7A6] text-[#23212A] px-[20px] py-[10px] w-[180px] text-[12px]">
               Submit Message
             </button>
           </div>
