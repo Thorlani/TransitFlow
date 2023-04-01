@@ -2,7 +2,10 @@ import React from "react";
 import timeIcon from "../../assets/time-icon.svg";
 import callIcon from "../../assets/call-icon.svg";
 import emailIcon from "../../assets/email-icon.svg";
-import client from "../../assets/client-logo.svg";
+import studio from "../../assets/studio.svg";
+import norto from "../../assets/norto.svg";
+import sandbox from "../../assets/sandbox.svg";
+import points from "../../assets/points.svg";
 
 const SeventhSection = () => {
   return (
@@ -11,18 +14,27 @@ const SeventhSection = () => {
         <div className="w-[30%]">
           <div className="flex bg-black/20 w-[40px]">
             <div className="w-[2px] h-[12px] bg-gradient-to-r from-[#FFDA56] to-[#FFD7A6]"></div>
-            <p id="rubik-regular" className="text-[#ffffff] text-[8px] text-center px-[4px]">
+            <p
+              id="rubik-regular"
+              className="text-[#ffffff] text-[8px] text-center px-[4px]"
+            >
               Contact
             </p>
           </div>
           <h3 id="rubik-semibold" className="text-[#ffffff] text-xl font-bold">
             Get in touch with us
           </h3>
-          <p id="krub-medium" className="text-[#ffffff] text-[10px] max-w-[230px] mb-[15px]">
+          <p
+            id="krub-medium"
+            className="text-[#ffffff] text-[10px] max-w-[230px] mb-[15px]"
+          >
             Leverage agile frameworks to provide a robust synopsis for strategy
             foster collaborative thinking to further the overall value.
           </p>
-          <div id="krub-medium" className="flex flex-col justify-between h-[160px]">
+          <div
+            id="krub-medium"
+            className="flex flex-col justify-between h-[160px]"
+          >
             <div className="flex items-center">
               <img
                 src={emailIcon}
@@ -66,7 +78,10 @@ const SeventhSection = () => {
           </div>
         </div>
         <div className="w-[70%]">
-          <div id="league-regular" className="grid grid-cols-2 gap-4 w-[700px] mb-[16px]">
+          <div
+            id="league-regular"
+            className="grid grid-cols-2 gap-4 w-[700px] mb-[16px]"
+          >
             <input
               type="text"
               placeholder="Your name*"
@@ -78,7 +93,10 @@ const SeventhSection = () => {
               className="border-[1px] border-[#4E5683] p-[10px] bg-transparent  text-[#999999]"
             />
           </div>
-          <div id="league-regular" className="grid grid-cols-2 gap-4 w-[700px] mb-[16px]">
+          <div
+            id="league-regular"
+            className="grid grid-cols-2 gap-4 w-[700px] mb-[16px]"
+          >
             <input
               type="number"
               placeholder="Phone Number*"
@@ -96,17 +114,38 @@ const SeventhSection = () => {
               placeholder="Your Message"
               className="border-[1px] border-[#4E5683] p-[10px] bg-transparent h-[120px] w-[700px] mb-[16px]  text-[#999999]"
             />
-            <button type="submit" id="krub-semibold" className="bg-gradient-to-r from-[#FFDA56] to-[#FFD7A6] text-[#23212A] px-[20px] py-[10px] w-[180px] text-[12px]">
+            <button
+              type="submit"
+              id="krub-semibold"
+              className="bg-gradient-to-r from-[#FFDA56] to-[#FFD7A6] text-[#23212A] px-[20px] py-[10px] w-[180px] text-[12px]"
+            >
               Submit Message
             </button>
           </div>
         </div>
       </div>
-      <img
-        src={client}
-        alt="an image of the client logos"
-        className="object-contain mt-[100px]"
-      />
+      <div className="w-full h-fit mt-[100px] flex ">
+        <img
+          src={studio}
+          alt="an image of the client logos"
+          className="object-contain w-[250px] h-[250px]"
+        />
+        <img
+          src={norto}
+          alt="an image of the client logos"
+          className="object-contain w-[250px] h-[250px]"
+        />
+        <img
+          src={points}
+          alt="an image of the client logos"
+          className="object-contain w-[250px] h-[250px]"
+        />
+        <img
+          src={sandbox}
+          alt="an image of the client logos"
+          className="object-contain w-[250px] h-[250px]"
+        />
+      </div>
     </section>
   );
 };
